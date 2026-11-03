@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alaravillagemannyannlaynviolenta.vercel.app/sitemap.xml
