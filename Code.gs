@@ -67,7 +67,7 @@ function include(filename) {
  * kaya hindi bumibigat ang page. Para magdagdag: gumawa ng bagong HTML file (hal. Vid_midpark2) at idagdag dito.
  */
 var VIDEO_FILES_ = {
-  gate: 'Vid_gate'
+  gate: 'Vid_gateVid_gate'
   // midpark1: 'Vid_midpark1',
   // midpark2: 'Vid_midpark2',
 };
