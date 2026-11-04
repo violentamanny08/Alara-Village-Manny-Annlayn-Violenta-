@@ -190,7 +190,7 @@ footer p{margin:22px auto 0;max-width:640px;font-size:12px;line-height:1.8;color
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
 
 .hbg{position:absolute;inset:0;overflow:hidden}
-.himg{position:absolute;top:0;bottom:0;right:0;left:38%;background-image:url("/assets/alara-hero-background.jpg");background-size:cover;background-position:center;filter:saturate(1.08) contrast(1.04);transform-origin:62% 60%;animation:kb 28s ease-in-out infinite alternate;will-change:transform}
+.himg{position:absolute;top:0;bottom:0;right:0;left:38%;background-image:url("/assets/alara-hero-enhanced.png");background-size:cover;background-position:center;filter:saturate(1.08) contrast(1.04);transform-origin:62% 60%;animation:kb 28s ease-in-out infinite alternate;will-change:transform}
 .hsun{position:absolute;left:74%;top:60%;width:46%;aspect-ratio:1;transform:translate(-50%,-50%);background:radial-gradient(circle,rgba(255,214,140,.55),rgba(255,190,100,.18) 40%,transparent 70%);mix-blend-mode:screen;animation:pulse 7s ease-in-out infinite alternate}
 .hshade{position:absolute;inset:0;background:linear-gradient(90deg,#0C1310 0%,#0C1310 38%,rgba(12,19,16,.62) 47%,rgba(12,19,16,.14) 64%,rgba(12,19,16,0) 100%),linear-gradient(0deg,#0C1310 0%,rgba(12,19,16,0) 16%),linear-gradient(180deg,rgba(12,19,16,.4) 0%,rgba(12,19,16,0) 16%)}
 .hp{position:absolute;width:4px;height:4px;border-radius:50%;background:#F3D9A0;box-shadow:0 0 8px 2px rgba(243,217,160,.7);opacity:0;animation:rise 12s linear infinite}
