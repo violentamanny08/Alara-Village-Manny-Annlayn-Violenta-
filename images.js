@@ -36,10 +36,10 @@ var LOGOS = {
    - 'local:gate|https://youtu.be/XXXX' = sariling video muna; kapag hindi ma-load, YouTube ang gagamitin.
    Kapag walang laman ('') ang isang lugar, lalabas ang "Video coming soon" kasama ang larawan at paliwanag. */
 var VIDEOS = {
-  midpark1: 'https://youtu.be/FwcEI_PAlwE',    // Midpark 1
-  midpark2: 'https://youtu.be/UMELJAAddpA',    // Midpark 2
-  forest: 'https://youtu.be/8Y4YRqQonXs',      // Forest Park
-  play: 'https://youtu.be/hfYruXsIVd8',        // Play Area at Tri-Court
-  clubhouse: 'https://youtu.be/N0FexJPXn2Y',   // Clubhouse at Pool
-  gate: 'local:gate|https://youtu.be/vCs9ofxyaow'   // Gated Entrance (video na nasa Apps Script mismo: file na Vid_gateVid_gate)
+  midpark1: '/assets/videos/midpark1-1080p.mp4',       // Midpark 1
+  midpark2: '/assets/videos/midpark2-1080p.mp4',       // Midpark 2
+  forest: '/assets/videos/forestpark-1080p.mp4',       // Forest Park
+  play: '/assets/videos/tricourt-1080p.mp4',           // Play Area at Tri-Court
+  clubhouse: '/assets/videos/clubhousepool-1080p.mp4', // Clubhouse at Pool
+  gate: '/assets/videos/entrancegate-1080p.mp4'        // Gated Entrance
 };
