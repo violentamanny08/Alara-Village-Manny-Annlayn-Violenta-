@@ -12,12 +12,12 @@ var IMAGES = {
   couple: '/assets/manny-annalyn.png',   // larawan nina Manny at Annalyn na magkasama
   manny: '',        // larawan ni Manny (para sa seksyong Your Partners)
   annalyn: '',      // larawan ni Annalyn
-  veta: '/assets/home-veta.jpg', zila: '/assets/home-zila.jpg', raya: '/assets/home-raya.jpg',   // bawat model house
-  yana: '/assets/home-yana.jpg'
+  veta: '/assets/home-veta-upscaled.png', zila: '/assets/home-zila-upscaled.png', raya: '/assets/home-raya-upscaled.png',   // bawat model house
+  yana: '/assets/home-yana-upscaled.png'
 };
 
 /* Floor plan (blueprint) images – ilagay ang URL ng larawan ng floor plan ng bawat bahay */
-var PLANS = { veta: '/assets/floorplan-veta.jpg', zila: '/assets/floorplan-zila.jpg', raya: '/assets/floorplan-raya.jpg', yana: '/assets/floorplan-yana.jpg' };
+var PLANS = { veta: '/assets/floorplan-veta-upscaled.png', zila: '/assets/floorplan-zila-upscaled.png', raya: '/assets/floorplan-raya-upscaled.png', yana: '/assets/floorplan-yana-upscaled.png' };
 
 /* ============ LOADING SCREEN LOGOS ============
    Ilagay dito ang larawan (data:image/... base64 o direct image URL).
