@@ -219,16 +219,16 @@ $('leadForm').addEventListener('submit', function(e){
 })();
 /* ============ SITE PLAN: PINDUTIN ANG MGA BILOG PARA SA VIDEO ============ */
 (function(){
-  var RATIO = 1038 / 1606;   // taas / lapad ng larawan ng site plan
+  var RATIO = 1024 / 1536;   // taas / lapad ng bagong site plan
   var D = 11.7;              // lapad ng bilog, bilang % ng lapad ng larawan
   // x, y = gitna ng bilog sa larawan (sa %)
   var SPOTS = [
-    { id: 'midpark1',  name: 'Midpark 1',            x: 9.67,  y: 28.65, desc: 'Isa sa dalawang pocket park sa pagitan ng mga block, para laging malapit ang luntian.' },
-    { id: 'forest',    name: 'Forest Park',          x: 35.67, y: 17.81, desc: 'Isang preserved na luntian sa gilid ng Ylang-Ylang River, para sa lakad at lilim.' },
-    { id: 'play',      name: 'Play Area & Tri-Court', x: 87.25, y: 17.81, desc: 'Playground para sa mga bata, at court para sa basketball, volleyball at tennis.' },
-    { id: 'clubhouse', name: 'Clubhouse & Pool',     x: 87.25, y: 48.13, desc: 'Resort-style na clubhouse at swimming pool, sa timog-silangang sulok ng village.' },
-    { id: 'gate',      name: 'Gated Entrance',       x: 9.67,  y: 86.58, desc: 'Isang guarded gate na may perimeter security para sa buong village.' },
-    { id: 'midpark2',  name: 'Midpark 2',            x: 51.33, y: 86.58, desc: 'Isa pang pocket park sa gitna ng mga block, malapit sa bawat kalye.' }
+    { id: 'midpark1',  name: 'Midpark 1',            x: 10.2,  y: 21.7,  desc: 'Isa sa dalawang pocket park sa pagitan ng mga block, para laging malapit ang luntian.' },
+    { id: 'forest',    name: 'Forest Park',          x: 36.1,  y: 16.7,  desc: 'Isang preserved na luntian sa gilid ng Ylang-Ylang River, para sa lakad at lilim.' },
+    { id: 'play',      name: 'Play Area & Tri-Court', x: 88.5,  y: 20.9,  desc: 'Playground para sa mga bata, at court para sa basketball, volleyball at tennis.' },
+    { id: 'clubhouse', name: 'Clubhouse & Pool',     x: 90.4,  y: 45.7,  desc: 'Resort-style na clubhouse at swimming pool, sa timog-silangang sulok ng village.' },
+    { id: 'gate',      name: 'Gated Entrance',       x: 11.5,  y: 77.6,  desc: 'Isang guarded gate na may perimeter security para sa buong village.' },
+    { id: 'midpark2',  name: 'Midpark 2',            x: 53.0,  y: 81.4,  desc: 'Isa pang pocket park sa gitna ng mga block, malapit sa bawat kalye.' }
   ];
   var vbox = $('vbox'); if (!vbox) return;
   var vFrame = $('vFrame'), vTitle = $('vTitle'), vDesc = $('vDesc'), vChips = $('vChips'), last = null, chips = [], token = 0, blobCache = {};

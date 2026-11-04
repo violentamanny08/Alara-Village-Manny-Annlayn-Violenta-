@@ -8,7 +8,7 @@ var IMAGES = {
   step2: '/assets/how-it-works-2.jpg',     // How It Works 2: community visit
   step3: '/assets/how-it-works-3.jpg',     // How It Works 3: reserve at papeles
   step4: '/assets/how-it-works-4.jpg',     // How It Works 4: susi / bagong bahay
-  amenitymap: '/assets/alara-site-plan.jpg',   // site plan ng Amenities section
+  amenitymap: '/assets/alara-site-plan.png',   // site plan ng Amenities section
   couple: '/assets/manny-annalyn.png',   // larawan nina Manny at Annalyn na magkasama
   manny: '',        // larawan ni Manny (para sa seksyong Your Partners)
   annalyn: '',      // larawan ni Annalyn
